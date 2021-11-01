@@ -1,4 +1,5 @@
 # HeartDiseaseDetector Project
+
 ## Problem Statement
 Medical services need to be advanced so that better decisions for patient diagnosis and treatment options can be made.Instead of diagnosis, when a disease prediction is implemented using certain machine learning predictive algorithms then healthcare can be made smart. Some cases can occur when early diagnosis of a disease is not within reach. Hence disease prediction can be effectively implemented. Thus Machine learning in healthcare aids the humans to process huge and complex medical datasets and then analyze them into clinical insights. This then can further be used by physicians in providing medical care. This project focus on the development of a system which would able to provide prediction of Heart Disease based on early symptoms and medical history of the inidividual.
 
@@ -35,6 +36,12 @@ Link: https://heartdiseaseprediction1.herokuapp.com/predict
 * `CSS 3`
 * `Bootstrap`
 * `Heroku`
+
+## Repository Files
+* [heart.csv](https://github.com/xoikia/Heart_Disease_Prediction/blob/main/heart.csv) : This is the dataset I have used to build the model.
+* [Heart_Disease_Prediction](https://github.com/xoikia/Heart_Disease_Prediction/blob/main/Heart_Disease_Prediction.ipynb) : This jupyter notebook file is where the data analysis, data exploration, visualization and finally the model building is being done.
+* [HeartDiseasePrediction](https://github.com/xoikia/Heart_Disease_Prediction/tree/main/HeartDieseasePrediction) : This folder contains all the html, css, python code and the model which is used to build the Flask web app.
+* [ReadMe Images](https://github.com/xoikia/Heart_Disease_Prediction/tree/main/ReadMe%20Images) : Stores the images used in README file.
 
 ## Feedback
 Hello reader if you find any bug please consider raising issue. I will try to fix it. If you like the project please give a :star:
