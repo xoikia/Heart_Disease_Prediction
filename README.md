@@ -37,4 +37,4 @@ Link: https://heartdiseaseprediction1.herokuapp.com/predict
 * `Heroku`
 
 ## Feedback
-Hello reader if you find any bug please consider raising issue. I will try to fix it. If you like the project please :+1:
+Hello reader if you find any bug please consider raising issue. I will try to fix it. If you like the project please give a :star:
