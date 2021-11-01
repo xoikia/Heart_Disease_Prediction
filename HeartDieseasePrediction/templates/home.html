@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="form-group">
+    <div class="title">
+        <h1>Predict Heart Disease</h1>
+    </div>
+    <div class="form">
+        <form action="/predict" method="POST">
+            <div class="row">
+                <label for="age">Age</label>
+                <input type="number" class="form-control" name="age" placeholder="Age" required>
+            </div>
+
+            <div class="row">
+                <label for="sex">Sex</label>
+                <select class="form-control" name="sex" required>
+                    <option value="">Choose Sex</option>
+                    <option value=1>Male</option>
+                    <option value=0>Female</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="cp">Chest Pain (cp)</label>
+                <select class="form-control" name="cp" required>
+                    <option value="">Choose Chest Pain type</option>
+                    <option value=0>Typical Angina(1)</option>
+                    <option value=1>Atypical Angina(2)</option>
+                    <option value=2>Non-Anginal Pain(3)</option>
+                    <option value=3>Asymptomatic(4)</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="trestbps">Blood Pressure(mm Hg)</label>
+                <input type="number" class="form-control" name="trestbps"
+                       placeholder="Blood Pressure Level" required>
+            </div>
+
+            <div class="row">
+                <label for="chol">Cholesterol(mg/dl)</label>
+                <input type="number" class="form-control" name="chol" placeholder="Cholesterol Level" required>
+            </div>
+
+            <div class="row">
+                <label for="fbs">Fasting Blood Sugar > 120mg/dl ?</label>
+                <select class="form-control" name="fbs" required>
+                    <option value="">Choose FBS</option>
+                    <option value=1>Yes</option>
+                    <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="restecg"> Resting Electrocardiographic</label>
+                <select class="form-control" name="restecg" required>
+                    <option value="">Choose restecg value</option>
+                    <option value=0>Normal(0)</option>
+                    <option value=1>Abnormality(1)</option>
+                    <option value=2>Hypertrophy(2)</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="thalach">Maximum Heart Rate achieved</label>
+                <input type="number" class="form-control" name="thalach" placeholder="Max Heart Rate" required>
+            </div>
+
+            <div class="row">
+                <label for="exang">Excericse Induced Angina</label>
+                <select class="form-control" name="exang" required>
+                    <option value="">Choose Type</option>
+                    <option value=1>Yes</option>
+                    <option value=0>No</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <label for="oldpeak">Oldpeak</label>
+                <input type="number" step="0.01" class="form-control" name="oldpeak"
+                       placeholder="Enter ST depression level" required>
+            </div>
+
+
+            <div class="row">
+                <label for="slope">Slope of the peak exercise ST segment</label>
+                <select class="form-control" name="slope" required>
+                    <option value="">Choose Type</option>
+                    <option value=0>Up sloping</option>
+                    <option value=1>Flat</option>
+                    <option value=2>Down sloping</option>
+                </select>
+            </div>
+
+
+            <div class="row">
+                <label for="ca">Major vessels (0-4) colored by flourosopy</label>
+                <input type="number" class="form-control" name="ca" placeholder="Major Vessels Coloured" required>
+
+            </div>
+
+            <div class="row">
+                <label for="thal">Thalassemia type</label>
+                <select class="form-control" name="thal" required>
+                    <option value="">Choose Type</option>
+                    <option value=0>Type 0</option>
+                    <option value=1>Type 1</option>
+                    <option value=2>Type 2</option>
+                    <option value=3>Type 3</option>
+                </select>
+            </div>
+            <input type="submit" class="btn btn-success", value="Predict">
+        </form>
+    </div>
+</div>
+
+{% endblock %}
+
