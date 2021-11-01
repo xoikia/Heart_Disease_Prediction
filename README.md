@@ -22,3 +22,19 @@ Link: https://heartdiseaseprediction1.herokuapp.com/predict
 <p align="center">
   <img src="https://github.com/xoikia/Heart_Disease_Prediction/blob/main/ReadMe%20Images/Result.png" alt="result">
 </p>
+
+## Libraries and Tools used
+* `Python`
+* `Numpy`
+* `Pandas`
+* `Matplotlib`
+* `Seaborn`
+* `Sklearn`
+* `Flask`
+* `HTML 5`
+* `CSS 3`
+* `Bootstrap`
+* `Heroku`
+
+## Feedback
+Hello reader if you find any bug please consider raising issue. I will try to fix it. If you like the project please :+1:
