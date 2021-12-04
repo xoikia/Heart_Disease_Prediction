@@ -14,7 +14,7 @@ Medical services need to be advanced so that better decisions for patient diagno
 
 ## Project Interface
 
-Link: https://heartdiseaseprediction1.herokuapp.com/predict
+Link: [Predict Heart Disease](https://heartdiseaseprediction1.herokuapp.com/predict)
 <p align='center'>Web Interface</p>
 <p align="center">
   <img src="https://github.com/xoikia/Heart_Disease_Prediction/blob/main/ReadMe%20Images/Interface.png" alt="interface">
